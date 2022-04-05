@@ -1,4 +1,4 @@
-package com.luv2code.springsecurity.demo.user;
+package com.luv2code.springsecurity.demo.user;  
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
@@ -34,7 +34,7 @@ public class CrmUser {
 	@ValidEmail
 	@NotNull(message = "is required")
 	@Size(min = 1, message = "is required")
-	private String email;
+	private String email;    //this is private email
 
 	public CrmUser() {
 
